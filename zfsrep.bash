@@ -5,7 +5,6 @@ declare -A DATASETS=( ["root@10.99.80.80:tank/backups"]="tank/backups/servers"
                       ["root@10.99.80.80:tank/Public"]="tank/backups/Public" 
                       ["root@10.99.80.80:tank/Users"]="tank/backups/Users"
 		      ["root@10.99.80.80:tank/Photography"]="tank/backups/Photography"
-		      ["root@10.99.88.1:zones"]="tank/backups/headnode_zones"
 		      )
 
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)
